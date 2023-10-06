@@ -572,7 +572,7 @@ class MyClassRoom extends StatelessWidget {
             ),
             Divider(),
             ListTile(
-              leading: Icon(Icons.system_update_tv_outlined),
+              leading: Icon(Icons.archive_outlined),
               title: Text("Lớp học đã lưu"),
               onTap: () {
                 // Thực hiện hành động khi người dùng chọn mục Việc cần làm

@@ -13,10 +13,10 @@ class Myapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "MyClassRoom",
+      title: "CinemaStar",
       home: MyCinema(),
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(fontFamily: 'Raleway'),
+      // theme: ThemeData(fontFamily: 'Raleway'),
     );
   }
 }
