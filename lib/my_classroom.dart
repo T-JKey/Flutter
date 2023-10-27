@@ -490,9 +490,9 @@ class MyClassRoom extends StatelessWidget {
                 child: Text(
                   "T", // Văn bản bạn muốn hiển thị
                   style: TextStyle(
-                    color: Colors.white, // Màu văn bản
-                    fontWeight: FontWeight.bold, // Độ đậm
-                    fontSize: 12.0, // Kích thước văn bản
+                    color: Colors.white, 
+                    fontWeight: FontWeight.bold,
+                    fontSize: 12.0, 
                   ),
                 ),
               ),

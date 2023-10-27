@@ -89,7 +89,9 @@ class MyCinema extends StatelessWidget {
                           ],
                         ),
                       ),
-                      SizedBox(height: 5),
+                      SizedBox(
+                        height: 5,
+                      ),
                       ElevatedButton(
                         onPressed: () {},
                         child: Text('Đặt vé'),
