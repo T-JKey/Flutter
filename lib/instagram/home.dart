@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Instagram extends StatelessWidget {
-  Instagram({Key? key}) : super(key: key);
+class Home extends StatefulWidget {
+  const Home({super.key});
 
+  @override
+  State<Home> createState() => _HomeState();
+}
+
+class _HomeState extends State<Home> {
   List<String> profileImages = [
     "assets/img/anh1.jpg",
     "assets/img/anh2.jpg",
@@ -70,6 +75,8 @@ class Instagram extends StatelessWidget {
           ),
         ],
       ),
+
+      // Content
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -287,38 +294,6 @@ class Instagram extends StatelessWidget {
                 ),
               ),
             ),
-          ],
-        ),
-      ),
-      bottomNavigationBar: BottomAppBar(
-        child: Row(
-          children: [
-            Spacer(),
-            IconButton(
-              icon: Icon(Icons.home),
-              onPressed: () {},
-            ),
-            Spacer(),
-            IconButton(
-              icon: Icon(Icons.search),
-              onPressed: () {},
-            ),
-            Spacer(),
-            IconButton(
-              icon: Icon(Icons.add_box_outlined),
-              onPressed: () {},
-            ),
-            Spacer(),
-            IconButton(
-              icon: Icon(Icons.smart_display),
-              onPressed: () {},
-            ),
-            Spacer(),
-            IconButton(
-              icon: Icon(Icons.account_circle_outlined),
-              onPressed: () {},
-            ),
-            Spacer(),
           ],
         ),
       ),

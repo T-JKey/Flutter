@@ -1,4 +1,4 @@
-import 'package:code_demo/instagram.dart';
+import 'package:code_demo/instagram/bottomBar.dart';
 import 'package:code_demo/my_cinema.dart';
 import 'package:code_demo/my_classroom.dart';
 import 'package:code_demo/my_form.dart';
@@ -17,7 +17,7 @@ class Myapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Instagram",
-      home: Instagram(),
+      home: Main(),
       debugShowCheckedModeBanner: false,
       // theme: ThemeData(fontFamily: 'Raleway'),
     );
